@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+
+# Node / Next
+node_modules/
+.next/
+out/
+
+# Env
+.env
+
+# Logs
+*.log
+
+# Local DB
+*.db
