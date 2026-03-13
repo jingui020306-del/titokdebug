@@ -1,0 +1,6 @@
+# Optional algorithm dependencies for decision layer (graceful fallback to rule-based logic if missing)
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+lightgbm>=4.0.0
+vowpalwabbit>=9.9.0
+bertopic>=0.16.0

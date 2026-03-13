@@ -1,0 +1,78 @@
+{
+  "job_id": "job_demo001",
+  "generated_at": "2026-03-12T19:20:00Z",
+  "account_profile": {
+    "account_id": "douyin_12345",
+    "nickname": "增长研究员A",
+    "category": "知识分享",
+    "city": "杭州",
+    "followers": 18620,
+    "following": 113,
+    "bio": "陪你把复杂问题讲简单，每周拆解增长案例"
+  },
+  "account_metrics": {
+    "post_count_30d": 17,
+    "avg_views_30d": 8421,
+    "avg_completion_rate_30d": 0.322,
+    "avg_interaction_rate_30d": 0.047,
+    "follow_convert_rate_30d": 0.013
+  },
+  "post_snapshots": [
+    {
+      "post_id": "p_101",
+      "title": "90天做出稳定更新节奏的3个动作",
+      "topic": "创作方法",
+      "views": 13200,
+      "likes": 680,
+      "comments": 72,
+      "shares": 41,
+      "publish_time": "2026-03-09T10:00:00Z"
+    }
+  ],
+  "summary": "当前核心问题不是流量入口不足，而是主页信任感弱 + 内容结构跳跃。",
+  "scores": [
+    {
+      "name": "定位清晰度",
+      "score": 63,
+      "reason": "主题切换偏频繁"
+    }
+  ],
+  "top_issues": [
+    {
+      "issue": "账号价值主张不聚焦",
+      "severity": "high",
+      "evidence": "近10条内容方向波动较大"
+    }
+  ],
+  "profile_diagnosis": {
+    "current_state": "专业但泛",
+    "problem": "用户难判断持续关注理由",
+    "suggestion": "重写主页三段式"
+  },
+  "content_diagnosis": {
+    "current_state": "质量尚可但系列弱",
+    "problem": "标签不稳定",
+    "suggestion": "固定70/20/10内容配比"
+  },
+  "growth_bottleneck": {
+    "key_bottleneck": "推荐流量转关注效率低",
+    "why": "缺少明确下一步动作",
+    "focus_metric": "follow_convert_rate_30d"
+  },
+  "risk_alerts": [
+    "避免绝对化承诺",
+    "避免正文过强营销语"
+  ],
+  "action_plan": [
+    {
+      "phase": "7d",
+      "action": "主页改版+发布3条主线内容",
+      "expected_outcome": "转粉率提升"
+    }
+  ],
+  "routing": {
+    "recommended_module": "account-audit",
+    "reason": "先修复结构问题",
+    "next_step": "补充问卷后生成深度报告"
+  }
+}
